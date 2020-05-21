@@ -1,5 +1,5 @@
 function factorial(number){
-    if (number == 1) {
+    if (number === 1) {
         return number;
     }
     else {
