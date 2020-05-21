@@ -21,3 +21,6 @@ function binSearch(arr, data){
     }
     return -1;
 }
+
+var arr = [1, 2, 4, 5, 6, 7];
+console.log(binSearch(arr, 4)); //2
