@@ -11,7 +11,7 @@ class Checking{
     }
   }
   let ck = new Checking(200);
-  console.log(ck.toString());
+  console.log(ck.toString()); //200
   ck.deposit(100);
-  console.log(ck.toString());
+  console.log(ck.toString());//300
   
