@@ -1,6 +1,6 @@
 let str = "border-bottom-color";
 
-function changeToCamel(val) {
+function changeToCamel(str) {
   return str.split('-').reduce((prev, cur) => {
     console.log("prev:"+prev);
     return prev + cur.charAt(0).toUpperCase() + cur.substring(1);
@@ -14,14 +14,13 @@ console.log(changeToCamel(str));
 //"prev:BorderBottom"
 //"BorderBottomColor"
 
-function changeToCamel(val) {
+function changeToCamel(str) {
     return str.split('-').reduce((prev, cur) => {
       console.log("prev:"+prev);
       return prev + cur.charAt(0).toUpperCase() + cur.substring(1);
     }); //<-- no init
     
   }
-
 //"prev:border"
 //"prev:borderBottom"
 //"borderBottomColor"
